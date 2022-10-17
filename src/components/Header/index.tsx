@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text, Image } from 'react-native';
 import styles from './styles';
 
-import logoImg from '../assets/images/logo/logo.png';
+import logoImg from '../../../src/assets/images/logo/logo.png';
 
 interface HeaderProps {
   tasksCounter: number;

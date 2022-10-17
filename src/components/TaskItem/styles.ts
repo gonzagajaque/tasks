@@ -1,6 +1,6 @@
 import { StyleSheet } from "react-native";
 
-const styles = StyleSheet.create({
+export const styles = StyleSheet.create({
     taskButton: {
       flex: 1,
       paddingHorizontal: 24,
@@ -37,7 +37,18 @@ const styles = StyleSheet.create({
       color: '#1DB863',
       textDecorationLine: 'line-through',
       fontFamily: 'Inter-Medium'
-    }
-  })
+    },
+    iconsDivider: {
+        height: 24,
+        width: 1,
+        backgroundColor: 'rgba(196, 196, 196, 0.24)',
+        marginHorizontal: 12
+    },
+    containerIcon: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        paddingLeft: 120,
+        justifyContent: 'space-between',
+      }
 
-export default styles;
+  })
